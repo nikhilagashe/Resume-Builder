@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="inputs">
+    <h1 class="header">Resume Builder</h1>
+        <div class="form">
+        Enter your Name: <br><input type="text" name="ename" placeholder="Enter Your name" required><br><br>
+
+        Title :<br> <input type="text" name="title" placeholder="eg.web developer"><br><br>
+
+        Work Experience:<br><textarea id="editor" name="workexp" placeholder="share your work experience" required></textarea><br><br>
+
+        Education: <br> <textarea name="edu" placeholder="share your education" required></textarea><br><br>
+
+        Skills:  <br><textarea name="skills" placeholder="skills" required></textarea><br><br>
+
+        Projects: <br> <textarea name="projects" placeholder="project" required></textarea><br><br>
+
+        Achivements and Certificates:<br> <textarea name="achivements" placeholder="achivements and Certificates" required></textarea><br><br>
+
+        About me: <br><textarea name="about" placeholder="tell something about yourself" required></textarea><br><br>
+
+        Contact: <br><textarea name="contact" placeholder="phone no,Address" required></textarea><br><br>
+
+        Links:<br> <textarea name="links" placeholder="links" required></textarea><br><br>
+<br><br>
+        </div>
+
+        <!-- <input class="submit" type="submit" value="Preview and dEdit"> -->
+    </form>
+        <!-- for preview -->
+        <div class="output">
+
+        </div>
+        
+            <div class="btn">
+        <button id="btn" onclick="preview()">Preview</button>
+        <button id="edit" onclick="edit()">Edit</button>
+    </div>
+
+
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.4.0/classic/ckeditor.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>

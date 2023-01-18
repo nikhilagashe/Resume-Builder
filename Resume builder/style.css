@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* border: 2px solid red; */
+    /* display: flex; */
+    /* justify-content:center; */
+    background: linear-gradient(155deg,rgb(179, 220, 237) 10%,rgb(124, 239, 197),rgb(240, 213, 234));
+    margin: auto;
+    
+}
+.header{
+    border:5px solid rgb(145, 136, 35);
+    /* background: white; */
+    width: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: magneto;
+    border-radius: 15px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: 5px 5px 20px gray;
+    
+}
+input,textarea{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+}
+textarea{
+    height: 50px;
+}
+
+.form{
+    border: 3px solid gray;
+    padding: 20px;
+    display: block;
+    border-radius: 10px;
+    font-size: larger;
+    
+    width: 400px;
+    background: rgb(128, 125, 134);
+    /* color: rgb(5, 5, 6); */
+    display: block;
+    margin-left: 37%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+   
+
+}
+#btn{
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(9, 12, 9);
+    color: aliceblue;
+    font-family: Arial;
+    font-size: 15px;
+}
+#btn:hover{
+    background: rgb(10, 70, 10);
+    color: aliceblue;
+    transition: ease 0.3s;
+}
+#edit{
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(9, 12, 9);
+    color: aliceblue;
+    font-family: Arial;
+    font-size: 15px;
+}
+#edit:hover{
+    background: rgb(10, 70, 10);
+    color: aliceblue;
+    transition: ease 0.3s;
+}
+.after_preview{
+    width: 1000px;
+    margin-left: 5%;
+    padding: 50px;
+}
+
+.hero{
+    background-color: rgb(85, 85, 85);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    color:white
+}
+.hero h2{
+    font-size: 15px;
+    width: 10px;
+}
+
+.hero .unique{
+    font-size: 20px;
+    margin-top: 30px;
+    width: fit-content;
+    /* border: 2px solid red; */
+}
+#ct{
+    width: 250px;
+    text-align: start;
+    margin-right: 40px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(203, 235, 244);
+    border-radius: 10px;
+}
+
+.main h2{
+    /* border-bottom: 2px solid rgb(7, 7, 7); */
+    text-decoration: underline;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: max-content;
+    color:rgb(10, 7, 7)
+    
+}
+.main p{
+    margin-left: 40px ;
+}
